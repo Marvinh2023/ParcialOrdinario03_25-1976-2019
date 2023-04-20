@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light">
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edtEmail"
+        android:layout_alignStart="@+id/edtEmail"
+        android:layout_alignEnd="@+id/edtEmail"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="81dp"
+        android:text="Eliminar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEliminar"
+        android:layout_alignStart="@+id/btnEliminar"
+        android:layout_alignEnd="@+id/btnEliminar"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-24dp"
+        android:text="Nota: el email es el parametro para eliminar el usuario"
+        android:textSize="20sp" />
+</RelativeLayout>

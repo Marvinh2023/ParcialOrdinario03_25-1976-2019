@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/nav_fav"
+        android:icon="@drawable/baseline_edit_24"
+        android:title="Update" />
+
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/baseline_restore_from_trash_24"
+        android:title="Delete" />
+
+   <!-- <item
+        android:id="@+id/nav_busqeuda"
+        android:icon="@drawable/baseline_search"
+        android:title="Search" />-->
+</menu>

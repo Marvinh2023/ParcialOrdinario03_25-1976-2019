@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNombre"
+        android:layout_alignStart="@+id/edtNombre"
+        android:layout_alignEnd="@+id/edtNombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtApellido"
+        android:layout_alignStart="@+id/edtApellido"
+        android:layout_alignEnd="@+id/edtApellido"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTelefono"
+        android:layout_alignStart="@+id/edtTelefono"
+        android:layout_alignEnd="@+id/edtTelefono"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edtEmail"
+        android:layout_alignStart="@+id/edtEmail"
+        android:layout_alignEnd="@+id/edtEmail"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="81dp"
+        android:text="Editar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEliminar"
+        android:layout_alignStart="@+id/btnEliminar"
+        android:layout_alignEnd="@+id/btnEliminar"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-24dp"
+        android:text="Nota: el email es el parametro para editar el usuario"
+        android:textSize="20sp" />
+</RelativeLayout>
